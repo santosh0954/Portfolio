@@ -39,7 +39,7 @@ body {
 
 header {
     width: 100%;
-    height: 720px;
+    height: 100vh;
     margin-bottom: 220px;
     background: url(../bg-5.svg) no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@ header {
 .title{
     position: relative;
     color: #313131;
-    top: 20%;
+    top: 30%;
     font-weight: bolder;
     font-size: 500%;
     margin-bottom: 700px;
@@ -135,7 +135,10 @@ nav ul li {
 nav ul li::after {
     display: none;
 }
-
+header{
+    background-position:  center;
+    background-size: 200%;
+}
 
 }
 .wrapper {
@@ -278,7 +281,7 @@ input, textarea {
     width: 150px;
     height: 150px;
     margin: -90px auto 0;
-    border: 4px solid #ffffff88;
+    border: 4px solid ;
     border-color: rgba(255, 255, 255, 0.521);
 }
 .mm{
