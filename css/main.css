@@ -126,7 +126,7 @@ nav ul li:hover:after {
     margin-bottom: 15px;
 }
 nav {
-    background: rgba(255, 255, 255, 0.726);
+    background: #EEEEEE;
     border-bottom: 2px solid rgba(0, 0, 0, 0.452);
 }
 nav ul li {
