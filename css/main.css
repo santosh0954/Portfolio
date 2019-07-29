@@ -379,3 +379,58 @@ input, textarea {
     }
 }
 
+#preloader {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border: .4rem solid #333;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+}
+#preloader:before,
+#preloader:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -.2rem 0 0 -.2rem;
+  border-bottom: .4rem solid #333;
+  border-radius: .6rem;
+  transform-origin: .2rem center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+}
+#preloader:before {
+  /*hourhand*/width: 30%;
+  animation: rotate 10s linear infinite;
+  -webkit-animation: rotate 10s linear infinite;
+}
+#preloader:after {
+  /*minutehand*/width: 40%;
+  background-color: #333;
+  animation: rotate 1s linear infinite;
+  -webkit-animation: rotate 1s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+#wrapper-loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: #C0C0C0;
+}
+/* for demo purposes only — not required */
+#preloader {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
