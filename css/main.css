@@ -194,8 +194,9 @@ h2 {
 }
 
 .scroll:hover img {
-    animation: scroll 5s ease-in-out 0s infinite alternate;
-     
+    animation: scroll 3s ease-in-out 0s infinite alternate;
+    -webkit-animation: scroll 3s ease-in-out 0s infinite alternate;
+   
 }
 
 .b-s {
@@ -290,9 +291,27 @@ input, textarea {
 }
 
 .scroll {
+    position: relative;
     width: 100%;
     height: 200px;
     overflow: hidden;
+}
+.external-link {
+    position: absolute;
+    bottom: -15%;
+    right: 8%;
+    text-decoration: none;
+    color: rgba(42, 21, 226, 0.849) !important;
+    font-weight: bold;
+    font-size: 120%;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+.scroll:hover .external-link {
+    bottom: 2%;
 }
 
 @keyframes scroll {
@@ -300,7 +319,7 @@ input, textarea {
         top: 0;
     }
     100% {
-        top:-388px;
+        top:-50vh;
     }
 }
 #myFooter{
