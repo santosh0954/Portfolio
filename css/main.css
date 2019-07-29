@@ -381,11 +381,11 @@ input, textarea {
 
 #preloader {
   position: absolute;
-  width: 5rem;
-  height: 5rem;
-  border: .4rem solid #333;
+  width: 4rem;
+  height: 4rem;
+  border: .4rem solid #fff;
   border-radius: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+  box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.699);
 }
 #preloader:before,
 #preloader:after {
@@ -394,10 +394,10 @@ input, textarea {
   top: 50%;
   left: 50%;
   margin: -.2rem 0 0 -.2rem;
-  border-bottom: .4rem solid #333;
+  border-bottom: .4rem solid #fff;
   border-radius: .6rem;
   transform-origin: .2rem center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.315);
 }
 #preloader:before {
   /*hourhand*/width: 30%;
@@ -421,7 +421,7 @@ input, textarea {
     width: 100%;
     height: 100%;
     z-index: 100;
-    background: #C0C0C0;
+    background: #333;
 }
 /* for demo purposes only — not required */
 #preloader {
