@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/hover-min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/css-circular-prog-bar.css" />
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/typed.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 
@@ -53,9 +54,15 @@
                     </ul>
                 </div>
             </nav>
-            <h1 class="text-center animated  title " title="Ya its me">
-                I Am Santosh Jha. <br>
-            </h1>
+            <div class="text-center title " title="Ya its me">
+                <div id="typed-strings">
+                    <p>I'm  <strong>Santosh Jha</strong></p>
+                    <p>I'm <em>Graphic</em></p>
+                    <p>And</p>
+                    <p>Web Designer.</p>
+                </div>
+                <span id="typed"></span>
+            </div>
         </header>
     </div>
 
@@ -318,13 +325,27 @@
         <hr class="my-2" style="border-color:#757373 ">
         <p class="text-monospace text-center mb-0 p-2">&copy santosh</p>
     </div>
-    <script src="js/jquery-asPieProgress.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
    
     <script>
     $(window).on("load", function(){
         $("#wrapper-loader").fadeOut("slow");
         $(".title").addClass("bounceInDown");
     })
+    </script>
+    <script>
+    $('document').ready(function(){
+
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          startDelay: 200,
+          backSpeed: 40,
+          typeSpeed: 100,
+          loop: true
+        });
+    });
     </script>
 </body>
 
