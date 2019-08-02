@@ -300,18 +300,28 @@ input, textarea {
     position: absolute;
     bottom: -15%;
     right: 8%;
+    padding: 2px 4px;
     text-decoration: none;
-    color: rgba(42, 21, 226, 0.849) !important;
+    background-color: #313131;
+    color: rgba(255, 255, 255, 0.849) !important;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 100%;
+    border-radius: 2px;
     transition: all 0.8s ease;
     -webkit-transition: all 0.8s ease;
     -moz-transition: all 0.8s ease;
     -ms-transition: all 0.8s ease;
     -o-transition: all 0.8s ease;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 .scroll:hover .external-link {
     bottom: 2%;
+}
+.external-link:hover {
+    text-decoration: none;
 }
 
 @keyframes scroll {
