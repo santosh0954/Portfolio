@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Santosh Jha">
+    <meta name="description" content="greenTree">
+    <meta name="keywords" content="greentree">
+    <title>GreenTree</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="top">
+    <!-- Navigation bar -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-end py-2 border-bottom border-success">
+        <a href="index.html" class="navbar-brand font-weight-bold mr-auto my-0 py-0"><img src="Milegreen.svg" alt="brand logo"
+                style="width: 150px;"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-sm-3">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown">Gallary</a>
+                    <div class="dropdown-menu shadow-sm bg-success ">
+                        <a href="photos.html" class="dropdown-item text-white">Photos</a>
+                        <a href="videos.html" class="dropdown-item text-white">Videos</a>
+                    </div>
+                </li>
+                <a href="product.html" class="nav-link">Products</a>
+                <a href="contactUs.html" class="nav-link">Contact us</a>
+            </ul>
+            <div class="ml-auto mr-2">
+                <a href="#signup-form" class="signup mr-2" data-toggle="modal">SignUp</a>
+                <a href="#"><button type="button" class="btn btn-success log-in" data-toggle="modal"
+                        data-target="#login-form">Log In</button></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation bar end -->
+
+    <!-- header title starts here -->
+    <div class="jumbotron text-white-50 p-0 header-overlay" style="background: url(images/color-cool-wallpaper-dark-green-808510.jpg) no-repeat center; height: 250px;">
+        <div class="overlay-dark-block d-flex align-items-center pl-5">
+                <h2 class=" d-inline-block border-bottom border-dark position-absolute">Contact Us</h2>
+            
+        </div>
+    </div>
+    <!-- header title ends here -->
+
+    <!-- contact us form start -->
+    <div class="container">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item disabled">Contact us</li>
+        </ul>
+        <div class="row">
+            <div class="col-md-6 col-lg-8 p-4">
+                <h4>LEAVE A MESSAGE</h4>
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label for="fullName">Full Name:</label>
+                            <input type="text" placeholder="full name" name="full name" id="fullName"
+                                class="form-control">
+                        </div>
+                        <div class="form-group col">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="email" name="email" id="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label for="phone">Phone:</label>
+                            <input type="number" placeholder="phone number" name="phone" id="phone"
+                                class="form-control">
+                        </div>
+                        <div class="form-group col">
+                            <label for="subject">Subject:</label>
+                            <input type="text" placeholder="subject" name="subject" id="subject" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Address:</label>
+                        <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success px-3 shadow-sm">Send <i
+                            class="fa fa-send ml-1"></i></button>
+                </form>
+            </div>
+            <div class="col-md-6 col-lg-4 text-white p-4">
+                <div class="container-fluid p-4 bg-success">
+                    <h5 class="d-inline-block border-bottom border-white">Get In Touch</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora esse quibusdam harum eum alias,
+                        est nihil fugiat saepe delectus quos?</p>
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fa fa-location-arrow"></i></span> <strong> Head Office :-</strong> Culture Department of New Delhi -01</li>
+                        <li><span class="fa-li"><i class="fa fa-phone"></i></span> <strong>Phone :-</strong>+91-458-5478-457</li>
+                        <li><span class="fa-li"><i class="fa fa-envelope"></i></span>
+                        <strong>Support :-</strong>greentree@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- contact us form end -->
+    <!-- Map start here -->
+    <div class="container-fluid mt-5">
+        <div class="row border-top border-success">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14410.766859401856!2d81.8552188!3d25.4485683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1566733473420!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+    </div>
+    <!-- Map end here -->
+    
+    <!-- Footer start -->
+    <!-- <div class="text-center to-top"><a href="#top"><span>
+                <i class="fa fa-arrow-up"></i>
+                Top</span></a></div> -->
+    <footer id="myFooter" class="bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <h2 class="logo"><a href="#" class="text-white"> Green <span class="text-warning">Tree</span> </a>
+                    </h2>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eum blanditiis
+                        voluptas at atque laudantium.</p>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-warning">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <p class="mx-2 mx-sm-4 text-md-right"><i class="fa fa-cc-visa fa-2x"></i> <i
+                class="fa fa-cc-mastercard fa-2x"></i> <i class="fa fa-cc-paypal fa-2x"></i></p>
+        <div class="footer-copyright">
+            <p>© 2019 Copyright Text </p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-------------Log in models start---------->
+    <div class="modal fade bd-example-modal-lg" id="login-form" tabindex="-1" role="dialog" aria-labelledby="login-form"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered"">
+      <div class=" modal-content">
+            <div class="modal-header px-4">
+                <h4 class="modal-title">Log In</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body p-4">
+                <form action="/action_page.php" class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <label for="uname">Username:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input" id="rem" name="terms" required>
+                        <label class="custom-control-label" for="rem">
+                            Remember me
+                            <!-- <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla. -->
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-success shadow-sm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-------------Log in models end---------->
+    <!-------------SignUp models start---------->
+    <div class="modal fade bd-example-modal-lg" id="signup-form" tabindex="-1" role="dialog"
+        aria-labelledby="signup-form" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered"">
+      <div class=" modal-content border-left border-success">
+            <div class="modal-header px-4">
+                <h4 class="modal-title">Sign Up</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body p-5 ">
+                <form class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill the Password.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Confirm Password</label>
+                        <input type="text" class="form-control no-validate" id="inputAddress2"
+                            placeholder="Confirm password" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill the Confirm Password.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill Address</div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill the city</div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option disabled value="0">Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" required>
+                        </div>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out the zip</div>
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="terms" name="terms" required>
+                            <label class="custom-control-label" for="terms">
+                                I agree on terms.
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Check this checkbox to continue.</div>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-------------SignUp models end---------->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>

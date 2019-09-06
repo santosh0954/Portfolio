@@ -1,0 +1,493 @@
+
+$shadow : 0 5px 8px rgba(0,0,0,0.2), 0 8px 12px rgba(0,0,0,0.1);
+$primary: #218838;
+*{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+h1, h2,h3,h4,h5,h6,strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+nav {
+  box-shadow: $shadow;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  
+}
+  a.dropdown-item:hover {
+      color: #218838 !important;
+  }
+  .log-in{
+    border-radius: 30px;
+    box-shadow: 0 5px 8px #2188373d;
+  }
+  .signup {
+    color: #888;
+    &:hover {
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  }
+  .carousel-inner {
+      height: calc(100vh - 81.2813px);
+    box-shadow: $shadow;
+  }
+  @media (max-width: 660px) {
+    .carousel-inner {
+        height: auto;
+        box-shadow: none;
+      } 
+  }
+  .overlay-dark {
+    position: relative;
+    background-attachment: fixed !important;
+    .overlay-dark-block{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+    }
+  }
+  .about-parrent {
+    position: relative;
+    .about {
+      position: relative;
+      top: -100px;
+      z-index: 10;
+      transition: transform 1s;
+      img.img-fluid {
+        box-shadow: 0 8px 15px rgba(0,0,0,0.2), 0 10px 15px rgba(0,0,0,0.3) !important;
+    }
+    &:hover{
+         transform: translateY(-2%);
+       }
+    }
+ 
+  }
+  @media (max-width: 825px) and (min-width: 770px) {
+    .about-parrent {
+      background: url(../Images/pot.png) no-repeat;
+    background-position: 5% bottom ;
+    background-size: 15rem;
+    }
+  }
+  @media (max-width: 992px) and (min-width: 826px) {
+    .about-parrent {
+      background: url(../Images/bg-1.png) no-repeat;
+    background-position: 5% bottom ;
+    background-size: 8rem;
+    }
+  }
+  @media (min-width: 1073px) {
+    .about-parrent {
+      background: url(../Images/beautiful-botanical-bright-912413.jpg) no-repeat;
+    background-position: right bottom ;
+    background-size: 12rem;
+    }
+  }
+  .ourwork-img {
+    background: url(../images/cacti-close-up-colors-776656.jpg)no-repeat center;
+    background-size: 100%;
+    position: relative;
+    transition: all 1s ease;
+    &:hover {
+      background-size: 110%;
+    }
+    .overlay-dark-block{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      transition: all 2s ease;
+    }
+    &:hover .overlay-dark-block {
+      background: none;
+    }
+}
+@media (max-width: 1220px) and (min-width: 991px){
+  .ourwork-img {
+    background-size: cover;
+    &:hover {
+      background-size: cover;
+    }
+  }
+}
+
+  .our-mission-img {
+    background: url(../images/savetree.jpg)no-repeat center;
+    background-size: 100%;
+    position: relative;
+    transition: all 1s ease;
+    &:hover {
+      background-size: 110%;
+    }
+    .overlay-dark-block{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      transition: all 2s ease;
+    }
+    &:hover .overlay-dark-block {
+      background: none;
+    }
+}
+@media (max-width: 1220px) and (min-width: 991px){
+  .our-mission-img {
+    background: url(../images/cactus-cactus-plant-container-1630318.jpg) no-repeat center;
+    background-size: 100%;
+    &:hover {
+      background-size: 110%;
+    }
+  }
+}
+.slick-prev {
+  left: 0;
+  z-index: 50;
+}
+.slick-next {
+  right: 0;
+  z-index: 50;
+}
+// @media (max-width: 582px){
+//   .user {
+//     .slick-prev {
+//       left: -3px;
+//       z-index: 50;
+//     }
+//     .slick-next {
+//       right: -3px;
+//       z-index: 50;
+//     }
+//   }
+// }
+.slick-prev:before {
+  color: #888;
+  font-weight: bolder;
+}
+.slick-next:before {
+  color: #333;
+  font-weight: bolder;
+}
+ul.slick-dots li button {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: 50%;
+}
+div.multiple-items div div.card {
+  box-shadow: $shadow;
+  border-radius: 8px;
+  position: relative;
+  transition: all 0.5s ease;
+  &:hover, &:active {
+    transform: scale(1.02) !important;
+  }
+  strong {
+    color: $primary;
+  }
+  .cart {
+    position: absolute;
+    padding: 5px;
+    margin: 0 5%;
+    width: 90%;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    bottom: 20%;
+    opacity: 0;
+    transition: bottom 0.4s ease, opacity 0.3s ease ;
+    a {
+      color: inherit;
+      text-decoration: none;
+      color: $primary;
+    }
+  }
+  &:hover .cart, &:active .cart {
+    bottom: 28%;
+    opacity: 1;
+  }
+  
+}
+@media (max-width: 768px) {
+  div.multiple-items div div.card .cart {
+    opacity: 1;
+    bottom: 28%;
+  }
+}
+@media (max-width: 648px) and (min-width: 600px) {
+  div.multiple-items div div.card .cart {
+    opacity: 1;
+    bottom: 35%;
+  }
+}
+@media (max-width: 472px) and (min-width: 400px) {
+  div.multiple-items div div.card .cart {
+    opacity: 1;
+    bottom: 45%;
+  }
+}
+@media (min-width: 768px) {
+.hindi p {
+  font-size: 3rem;
+}
+}
+@media (max-width: 767px) {
+  .hindi p {
+    font-size: 25px;
+  }
+  }
+  .to-top {
+    position: relative;
+  }
+  .to-top a{
+    position: absolute;
+    display: inline-block;
+    position: relative;
+     color: #333;
+     padding: 5px 8px;
+     border: 1px solid #e5e5e5;
+     border-radius: 8px;
+     background: $primary;
+     color: white;
+     border: 50%;
+     box-shadow: $shadow;
+     bottom: -20px;
+     transition: all 0.3s ease;
+     i,span {
+       display:block;
+     }
+  }
+  .to-top a:hover{
+     text-decoration: none;    
+     transform: translateY(10px);
+  }
+
+ //contact us section start
+ .header-overlay {
+  position: relative;
+
+ 
+  .overlay-dark-block{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+  }
+}
+ //contact us section end
+
+ //Photos section start here
+
+  .gallary .row .col-md-6{
+    position: relative;
+ 
+    strong{
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: calc(100% - 30px);
+      padding: 5px;
+      background: white;
+      border: 1px solid #e5e5e5;
+     
+    }
+  }
+  
+/* The Modal (background) */
+#image-model {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+#close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#close:hover,
+#close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+}
+ 
+ //Photos section end here
+
+
+
+  //footer section
+  #myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+    border-top: 1px solid ($primary - 50);
+}
+
+#myFooter .footer-copyright {
+    background-color: #0e571e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
