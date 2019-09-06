@@ -179,7 +179,7 @@ a.dropdown-item:hover {
 
 @media (max-width: 1220px) and (min-width: 991px) {
   .our-mission-img {
-    background: url(../images/cactus-cactus-plant-container-1630318.jpg) no-repeat center;
+    background: url(../Images/cactus-cactus-plant-container-1630318.jpg) no-repeat center;
     -webkit-background-size: 100% 100%;
        -moz-background-size: 100%;
          -o-background-size: 100%;
@@ -332,6 +332,7 @@ div.multiple-items div div.card {
   .gallary .row .col-md-6 strong {
     position: absolute;
     bottom: 0;
+    left: 15px;
     text-align: center;
     width: -webkit-calc(100% - 30px);
     width: -moz-calc(100% - 30px);
