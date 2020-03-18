@@ -166,23 +166,27 @@ h2 {
     margin: 30px 0;
     border-bottom: 2px solid rgba(221, 221, 221, 0.116);
 }
+.portfolio .col-md-4>div {
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-origin: content-box;
+    overflow: hidden;
+}
 
-.scroll img { 
+/* .scroll img { 
     position: relative;
     width: 100%;
     transition: all 3s linear;
-}
+} */
 
 .scroll {
     border: 2px solid rgba(221, 221, 221, 0.5);
     border-radius: 4px;
     padding: 5px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.466);
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
+    transition: background-position-y 8s ease, transform 0.5s ease;
 }
 
 .scroll:hover {
@@ -193,12 +197,15 @@ h2 {
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
+.scroll:hover:not(.form) {
+    background-position-y: bottom !important;
+}
 
-.scroll:hover img {
+/* .scroll:hover img {
     animation: scroll 3s ease-in-out 0s infinite alternate;
     -webkit-animation: scroll 3s ease-in-out 0s infinite alternate;
    
-}
+} */
 
 .b-s {
     border-radius: 10px;
