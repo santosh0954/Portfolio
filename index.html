@@ -1,365 +1,402 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Design</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+  </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/css-circular-prog-bar.css" />
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/typed.min.js"></script>
+  <body  data-spy="scroll" data-target=".navbar" data-offset="150" >
+    <!-- header  -->
+    <header class="pt-5" id="header">
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary py-2 fixed-top">
+        <div class="container">
+          <a href="./" class="navbar-brand">Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#header" class="nav-link active">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- hero  -->
+      <section class="container py-5 text-center mb-4">
+        <div
+          class="profile rounded-circle mx-auto my-4 "
+        >
+          <img src="./img/profile.jpg" alt="prifile image" class="img-fluid" />
+        </div>
+        <h1>I am Santosh Jha</h1>
+        <h5 class="text-warning">Graphic and Web Designer</h5>
+        <a href="#" class="btn"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://github.com/santosh0954" target="_blank" class="btn"><i class="fa fa-github-square fa-2x"></i></a>
+        <br />
+        <a href="santoshjha.pdf" download class="btn btn-outline-primary mt-3"><i class="fa fa-download"></i> Download CV</a>
+      </section>
+    </header>
+    <main>
+      <!-- About -->
+      <section class="container border shadow pl-0 px-sm-0 my-5 mx-auto" id="about">
+        <div class="row no-gutters">
+          <div class="col-lg-6 d-none d-sm-block">
+            <img
+              src="./img/computer-laptop-work-place-camera-705164.jpeg"
+              alt="about image"
+              class="d-block img-fluid"
+            />
+          </div>
+          <div class="col-lg-6 px-3 py-5 p-sm-5">
+            <h4>About me</h4>
+            <hr />
+            <p>
+              Hello! I am Santosh Jha. I work as interface and front end
+              developer. I have passion for pixel perfect, minimal and easy to
+              use interfaces. I have also learnt React, Context API and Redux. I
+              am persuing MCA from Indra Gandhi Open University, my future plan
+              is to be proficient in Node.js, React Native and Java based
+              Android application development.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="my-5" id="skills">
+        <div class="container pt-5 pb-2">
+          <h4><span class="text-warning">S</span>kills</h4>
+          <hr class="mb-4" />
+          <div class="row">
+            <article class="col-lg-3 col-sm-6 mb-3">
+              <ul>
+                <li>
+                  <strong class="h5 d-inline-block mb-2"> Graphic <span class="text-warning">Design</span></strong>
+                   
+                  </strong>
+                  <ul class="pl-4">
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Coral Draw</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+            <article class="col-lg-3 col-sm-6 mb-3">
+              <ul>
+                <li>
+                  <strong class="h5 d-inline-block mb-2">
+                    Web <span class="text-warning">Design</span>
+                  </strong>
+                  <ul class="pl-4">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                    <li>Jquery</li>
+                    <li>Fontawesome</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+
+            <article class="col-lg-3 col-sm-6 mb-3">
+              <ul>
+                <li>
+                  <strong class="h5 d-inline-block mb-2">
+                    Frameworks & <span class="text-warning">Libraries</span> 
+                  </strong>
+                  <ul class="pl-4">
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>Context API</li>
+                    <li>Redux</li>
+                    <li>Material UI</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+            <article class="col-lg-3 col-sm-6 mb-3">
+              <ul>
+                <li>
+                  <strong class="h5  d-inline-block mb-2"
+                    > Too<span class="text-warning">ls</span></strong
+                  >
+                  <ul class="pl-4">
+                    <li>Git & Github</li>
+                    <li>Gulp</li>
+                    <li>Webpack & Babel</li>
+                    <li>SCSS</li>
+                    <li>TypeScript</li>
+                  </ul>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio  -->
+      <section class="my-5" id="portfolio">
+        <div class="container py-5">
+          <h4> <span class="text-warning">P</span>ortfolio</h4>
+          <hr class="mb-4" />
+          <!-- content section  -->
+          <section class="text-center" >
+            <div class="btn-group">
+              <button class="btn btn-primary active" data-target="all">ALL</button>
+              <button class="btn btn-primary" data-target="graphic">GRAPHIC DESIGN</button>
+              <button class="btn btn-primary btn-sm" data-target="web">WEB DESIGN</button>
+            </div>
+            <div class="row pt-3 mt-5">
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/lowpoly.jpg);transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/SHAMPOO.jpg);transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/bottlefinal.jpg);transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/camera\ manupulation.jpg);transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/flatLandscape\ design.png);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/art.jpg);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/artistic\ media.jpg);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="graphic">
+                <article class="card shadow-sm">
+                  <span class="card-img-top" style="background-image: url(./img/portfolio/swiming.jpg);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Graphic Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website1.png);transition-duration: 2s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website2.png);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website3.png);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website4.png);transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website5.png);transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website6.png); transition-duration: 5s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website7.png);transition-duration: 2s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website8.png);"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4 mb-5" data-src="web">
+                <article class="card shadow-sm">
+                 <span class="card-img-top" style="background-image: url(./img/portfolio/website9.png);transition-duration: 2s;"></span>
+                  <div class="card-body border-top text-left">
+                    <p class="m-0">
+                      <span class="badge badge-warning p-2">Web Design</span>
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="my-5"></section>
+    </main>
+    <!-- footer  -->
+    <footer class="container-fluid bg-primary text-white p-3 pt-5" id="contact">
+      <div class="col-md-6 mx-auto">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name </label>
+            <input type="text" class="form-control" id="name" placeholder="your name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Message</label>
+            <textarea name="message" class="form-control" rows="10" placeholder="your messages"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+      </div>
+      <hr class="border border-warning mt-4">
+      <p class="mt-3 text-warning text-center">@Author Santosh Jha</p>
+    </footer>
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</head>
-
-<body>
-        <div id="wrapper-loader">
-                <div id="preloader"></div>
-            </div>
-    <div id="wraper">
-        <header>
-            <nav class="navbar navbar-expand-md navbar-light">
-                <a href="index.html" class="navbar-brand"> &#60;S/J&#62;</a>
-                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="my-nav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a href="index.html" class="nav-link" href="#">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#sec-1" class="nav-link" href="#" tabindex="-1" aria-disabled="true">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#sec-2" class="nav-link" href="#" tabindex="-1" aria-disabled="true">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#sec-3" class="nav-link" href="#" tabindex="-1" aria-disabled="true">Mywork</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#sec-4" href="sec-3" class="nav-link" href="#" tabindex="-1"
-                                aria-disabled="true">Contact me</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="text-center title " title="Ya its me">
-                <div id="typed-strings">
-                    <p>I'm  <strong>Santosh Jha</strong></p>
-                    <p>I'm <em>Graphic</em></p>
-                    <p>And</p>
-                    <p>Web Designer.</p>
-                </div>
-                <span id="typed"></span>
-            </div>
-        </header>
-    </div>
-
-    <div class="col-lg-11 col-md-12 mx-auto p-2 p-md-5 wrapper b-s">
-        <div class="wrapper b-s p-2 mb-10 text-center mm" id="sec-1">
-            <div class="profile rounded-circle">
-                <img src="images/Santosh.jpg" alt="profile pic" class="img-fluid ">
-            </div>
-            <h2 class=" my-3">About me</h2>
-            <p class="p-4">Hello! I am Santosh Jha. I work as interface and front end developer. I have passion for
-                pixel perfect, minimal and easy to use interfaces.I have also learnt PHP & MySQL. I am persuing MCA from
-                Indra Gandhi Open University, my future plan is to be Web devloper and Software Engineer.</p>
-        </div>
-        <div class="wrapper b-s p-2 text-center gray mb-5" id="sec-2">
-            <h2 class=" my-3">Skills</h2>
-            <div class="card text-center text-secondary gray">
-                <div class="card-body text-capitalize">
-                    <div class="row skill">
-                        <div class="col-md-6 col-12 col-lg-3">
-                            <h4>Graphic Design</h4>
-                            <div class="container">
-                                <div class="progress-circle over50 p89 mx-auto">
-                                    <span>89%</span>
-                                    <div class="left-half-clipper">
-                                        <div class="first50-bar"></div>
-                                        <div class="value-bar"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12 col-lg-3">
-                            <h4>Web Design</h4>
-                            <div class="container">
-                                <div class="progress-circle over50 p85 mx-auto">
-                                    <span>85%</span>
-                                    <div class="left-half-clipper">
-                                        <div class="first50-bar"></div>
-                                        <div class="value-bar"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12 col-lg-3">
-                            <h4>PHP & MySQL</h4>
-                            <div class="container">
-                                <div class="progress-circle over50 p80 mx-auto">
-                                    <span>80%</span>
-                                    <div class="left-half-clipper">
-                                        <div class="first50-bar"></div>
-                                        <div class="value-bar"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12 col-lg-3">
-                            <h4>Git & Github</h4>
-                            <div class="container">
-                                <div class="progress-circle over50 p75 mx-auto">
-                                    <span>75%</span>
-                                    <div class="left-half-clipper">
-                                        <div class="first50-bar"></div>
-                                        <div class="value-bar"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <a href="santoshjha.pdf" class="card-link text-white-50" download="santoshjha">
-                        <h6>Download Resume</h6>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper b-s p-3 p-md-4 mt-10 text-center work" id="sec-3">
-            <h2>My Work</h2>
-            <div class="portfolio row my-3">
-                <div class="col-md-4 col-sm-6">
-                    <div class="scroll" style="background-image: url(images/plantFinal.png);">
-                        <a class="external-link" title="live view" href="project/index.html" target="_blank">
-                            Live
-                            <i class="fa fa-external-link"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="scroll" style="background-image: url(images/first.png);">
-                        <a class="external-link" title="live view" href="https://santosh0954.github.io/institute/" target="_blank">
-                            Live
-                            <i class="fa fa-external-link"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="scroll" style="background-image: url(images/ecommerce.png);">
-                        <a class="external-link" title="live view" href="https://santosh0954.github.io/bigecommerce/" target="_blank">
-                            Live
-                            <i class="fa fa-external-link"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="scroll form" style="background-image: url(images/slide.png); background-position: center;">
-                        <a class="external-link" title="live view" href="https://santosh0954.github.io/sliding-form/">
-                            Live
-                            <i class="fa fa-external-link"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="scroll" style="background-image: url(images/ecomp.jpg);">
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="scroll" style="background-image: url(images/musix.png);">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <a href="https://santosh0954.github.io/personal-website/">
-            <div class="col-sm-2 text-center mx-auto text-white-50 ">
-                <i class="fa fa-github"></i>
-            </div>
-        </a>
-    </div>
-
-
-    <div class="container-fluid mt-5 bgb p-md-4 p-2 footer-sec">
-        <h2>Contact me</h2>
-        <!-- <div class="row justify-content-around">
-            <div class="col-sm-2  text-center text-white-50">
-                <i class="fa fa-facebook"></i>
-            </div>
-            <div class="col-sm-2  text-center text-white-50">
-                <i class="fa fa-whatsapp"></i>
-            </div>
-            <div class="col-sm-2  text-center text-white-50">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </div>
-        </div> -->
-
-        <div class="container-fluid">
-            <div class="row my-5 wrapper b-s px-2 py-3 p-md-5 p-lg-5" id="sec-4">
-                <div class="col-sm-12 col-lg-6">
-                    <div class="w-100 w-lg-50 mx-auto text-center">
-                        <h5 class="p-1 address" style="border:4px solid #ffffff8f;">Contact here</h5>
-                        <br>
-                        <i class="fa fa-phone"></i> +918299519708, 8601261887 <i class="fa fa-whatsapp"></i>
-                        <br>
-                        <i class="fa fa-map-marker"></i> Varanasi , India
-                        <br>
-                        <i class="fa fa-mail-forward" aria-hidden="true"></i> Santoshvns33@gmail.com
-                    </div>
-                    <div class="mt-3 map">
-
-                        <div style="width: 100%;position: relative; border-radius: 8px;"><iframe width="580"
-                                height="200"
-                                src="https://maps.google.com/maps?width=500&amp;height=200&amp;hl=en&amp;q=varanasi%2C%20India+(portfolio)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                style="width: 100%;position: relative; border-radius: 8px;"></iframe>
-                            <div
-                                style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
-                                <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
-                                        href="http://www.googlemapsgenerator.com/fr/">gmapgen fr</a> & <a
-                                        href="https://and-route.com/at/">billiger mietwagen nutzfahrzeuge</a></small>
-                            </div>
-                            <style>
-                                #gmap_canvas img {
-                                    max-width: none !important;
-                                    background: none !important
-                                }
-                            </style>
-                        </div><br />
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-6 mx-auto">
-                    <form action="" class="w-100 text-white-50">
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <div class="row">
-                                <div class="col-8">
-                                    <input type="text" name="name" id="name" class="form-control text-info"
-                                        placeholder="Name">
-                                </div>
-                                <div class="col-4">
-                                    <input type="text" name="name" id="lastname" class="form-control"
-                                        placeholder="Last Name">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" name="name" id="Email" class="form-control" placeholder="Email@">
-                        </div>
-                        <div class="form-group">
-                            <label for="Massage">Massage:</label>
-                            <textarea type="text" name="name" id="massage" class="form-control" rows="5"
-                                placeholder="Massage"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-secondary my-4 ">
-                            <i class="fa fa-paper-plane"></i> Send massage</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <hr class="mt-2" style="border-color:#757373 ">
-        <footer id="myFooter" class="mb-0 pt-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 col-lg-3">
-                        <h5>Get started</h5>
-                        <ul>
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#">My work</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-lg-3">
-                        <h5>About me</h5>
-                        <ul>
-                            <li>
-                                <a href="#">Contact me</a>
-                            </li>
-                            <li>
-                                <a href="#">Reviews</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-lg-3">
-                        <h5>Support</h5>
-                        <ul>
-                            <li>
-                                <a href="#">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#">Help desk</a>
-                            </li>
-                            <li>
-                                <a href="#">Forums</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-lg-3 info">
-                        <h5>Information</h5>
-                        <p> I create 100% responsive website with using HTML-5 , CSS-3 , JavaScript , Bootstrap-4 and
-                            Jquery in reseonable price , if you like my work then you can give a try , trust me you will
-                            really like it. <br>Thanks! </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <hr class="my-2" style="border-color:#757373 ">
-        <p class="text-monospace text-center mb-0 p-2">&copy santosh</p>
-    </div>
-    
-    
-   
     <script>
-    $(window).on("load", function(){
-        $("#wrapper-loader").fadeOut("slow");
-        $(".title").addClass("bounceInDown");
-    })
-    </script>
-    <script>
-    $('document').ready(function(){
+      $(()=> {
+        var btn = document.querySelectorAll('.btn-group [data-target]');
+        var element = document.querySelectorAll('#portfolio [data-src]');
+        btn.forEach((el)=> {
+          el.addEventListener('click', function(e) {
+            var target = e.target;
+            btn.forEach(el => el.classList.remove('active'));
+            e.target.classList.add('active');
+            element.forEach(ele => {
+              // console.log(el.getAttribute('data-target'))
+              if(el.getAttribute('data-target') == 'all') {
 
-        var typed = new Typed('#typed', {
-          stringsElement: '#typed-strings',
-          startDelay: 200,
-          backSpeed: 40,
-          typeSpeed: 100,
-          loop: true
-        });
-    });
-    </script>
-</body>
+                ele.classList.remove('d-none');
+              }
+             else if(ele.getAttribute('data-src')=== target.getAttribute('data-target')) {
+                ele.classList.remove('d-none');
+              }
+              else{
+                ele.classList.add('d-none');
 
+              }
+             
+            })
+            // console.log(e.target.classList.remove('active'))
+          })
+        })
+      
+       
+      })
+    </script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
