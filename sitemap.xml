@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/santosh0954/Portfolio</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/activity</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/issues</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/pulls</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/security</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/blob/master/index.html</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/blob/master/santoshJha.pdf</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/releases</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/search?q=repo%3Asantosh0954%2FPortfolio++language%3AHTML</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/13314461404</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10679977740</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10238242611</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/9028089667</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/8081399449</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/7973407779</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels?sort=name-asc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels?sort=name-desc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels?sort=count-desc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels?sort=count-asc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/bug</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/documentation</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/duplicate</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/enhancement</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/good%20first%20issue</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/help%20wanted</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/invalid</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/question</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/labels/wontfix</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches?query=sort%3Aaccessed-desc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches?query=sort%3Aaccessed-asc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches?query=sort%3Acreated-desc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches?query=sort%3Acreated-asc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches?query=sort%3Asize-desc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/caches?query=sort%3Asize-asc</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/13314461404/job/37184963867</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/13314461404/job/37184987759</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/13314461404/job/37184987764</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/13314461404/usage</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/f8c1120a02c6ef78aa9a56c9b7022c38b4eeef40</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10679977740/job/29600420598</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10679977740/job/29600441481</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10679977740/job/29600441485</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10679977740/usage</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/f6ad84b2757fccc5a8011d1739d341085a7cc73f</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10238242611/job/28322476998</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10238242611/job/28322483851</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10238242611/job/28322483853</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/10238242611/usage</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/7e016ae47a1ea7c0264b838c165b51ce61bbd6eb</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/9028089667/job/24807986877</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/9028089667/job/24807999322</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/9028089667/job/24807999323</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/9028089667/usage</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/3a18783e86a9bc06e7cf332119dd6f491b2784bf</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/8081399449/job/22079876281</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/8081399449/job/22079897237</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/8081399449/job/22079897245</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/8081399449/usage</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/04fafe62177b892cc3931896fc169abf080adeb7</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/7973407779/job/21767191554</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/7973407779/job/21767214524</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/7973407779/job/21767214831</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/actions/runs/7973407779/usage</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/a0160a99971fb359f1179a73d181260874322875</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/c52ed9c4c9309ac475bf13c5c32fe6816ccb6acd</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/11d8e58118ad5d56d5133929fb5eba9e662a0618</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/2e7d0de19fcc0dbe2f89fa89a07c7409d397b239</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/36950f791a74e6f5fc08e537cd8295564f5bcc0b</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/ad2ad6071d0c8e61019c04009a85ddb0fc9c3e13</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/8e9e01489a48efa549e5af7dd2c2337eaf4c9399</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/7928b6047e443200d92f2a92deaf8cb3353a7249</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/b3a3288f6b37f488ddce39ae4d54325959bff2ab</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/47e606692bad5f4da4b814bf016637aa050f1c0b</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/9c847285c603b4b29d276e3ca324699c3b9615c4</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/dc4d10b9433e2d507b3d264fe1b7b4c7564fb72b</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/986bd9381a373f0a8e1869f25c7ed59cfb0e4dbe</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/97a4e32a614e5ab0404e5c4b018c3e761b6123f0</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/4740f7718c5c790cf87255772d1cebaf868bfe08</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/74ebed5c22bd335ad41e41f5817f7d7bf523d58e</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/97539f04c732588bbb7cb3bb1baa055174ad208b</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/a9fdc59d372fc8575f456c70d110f5c327efdc80</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/c4d5c2eec4a162f129521fac4ceeb7b395b18684</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/6a2749674d2264b2c5279f45d450064a372bd661</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/7a1bf7063724bad7639c08b2cd273fd6b76db3e0</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/dae3abe2823c1e9eb429774a63c7142c4a1729c4</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/5b011455e351cd874f05fcc19722059f40769643</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/6fe6aa2d4d88c65c62057e940c7faaddb3119bcd</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/6772a14f61b6ad213e6b5c442ff9bc01bbb07623</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/6be32fd50df4b245ef870be728b3c03a6344e1b1</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/e0c4d43921cf56b5d171c6ecda18a3f470ec13e8</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/4d87e8c1e1d4a1f0bcb6357001ff2aee11e04401</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/santosh0954/Portfolio/commit/f475518486ea67e3b3112570b4ff30f7ba5f64ba</loc>
+  <lastmod>2025-02-13T18:29:34+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+
+
+</urlset>
